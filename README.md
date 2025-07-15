@@ -66,24 +66,34 @@ Problems solved in data preparation:
 
 ---
 
-## 🔧 Project Structure
+## Project Structure
 
 customer-churn-prediction/
+
 ├── data/ # source CSV file
+
 ├── models/ # saved model and metrics
+
 ├── notebooks/
+
 │ └── EDA.ipynb # exploratory data analysis
+
 ├── plots/ # plots
+
 ├── src/
+
 │ ├── preprocess.py # data preparation
+
 │ └── train.py # model training
+
 ├── README.md # this file
+
 └── requirements.txt # list of dependencies
 
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 
 - **Customers with monthly contracts** are much more likely to churn
 - **Shorter tenure** correlates with churn
@@ -114,14 +124,13 @@ customer-churn-prediction/
 
 ## How to run
 
-```bash
 # Install dependencies
 pip install -r requirements.txt
 
 # Train model
 python src/train.py
 
-__________________________________________________________________________________________
+__________________________________________________________________________________
 
 *RU*
 
@@ -188,15 +197,25 @@ ________________________________________________________________________________
 ## Структура проекта
 
 customer-churn-prediction/
+
 ├── data/ # исходный CSV-файл
+
 ├── models/ # сохранённая модель и метрики
+
 ├── notebooks/
+
 │ └── EDA.ipynb # исследовательский анализ данных
+
 ├── plots/ # графики
+
 ├── src/
+
 │ ├── preprocess.py # подготовка данных
+
 │ └── train.py # обучение моделей
+
 ├── README.md # этот файл
+
 └── requirements.txt # список зависимостей
 
 
